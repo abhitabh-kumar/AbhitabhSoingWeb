@@ -1,0 +1,9 @@
+.header{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    gap: 10px;
+}
+.headrimg{
+  height: 5rem;
+}

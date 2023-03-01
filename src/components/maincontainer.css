@@ -1,0 +1,61 @@
+li{
+    cursor: pointer;
+}
+.mainContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.first{
+    width: 20%;
+}
+.first,.third{
+    position: sticky;
+    top: 5rem;
+}
+.second{
+    width: 40%;
+}
+.third{
+    width: 40%;
+}
+.box{
+    width: 100%;
+    height: fit-content;
+    margin:10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    /* white-space: nowrap !important; */
+    overflow: hidden !important;
+    text-overflow: "....." !important;
+}
+.boxImg{
+    width: 4rem;
+}
+.desc{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.desc *{
+    margin: 0;
+    padding: 0;
+}
+.adding{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.view{
+    cursor: pointer;
+    background-color: rgb(232, 135, 135);
+    font-size: 1.5rem;
+    padding: 0px 8px;
+    border-radius: 4px;
+}
